@@ -1,0 +1,26 @@
+ul {
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+ul li a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    background: #f2f2f2;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: #fff;
+    background: #939393;
+}
+ul li ul {
+    display: none;
+}
+ul li:hover ul {
+    display: block; /* display the dropdown */
+}
